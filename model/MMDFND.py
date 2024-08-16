@@ -13,6 +13,7 @@ from .pivot import *
 from timm.models.vision_transformer import Block
 import cn_clip.clip as clip
 from cn_clip.clip import load_from_name, available_models
+#1
 class SimpleGate(nn.Module):
     def __init__(self, dim=1):
         super(SimpleGate, self).__init__()
